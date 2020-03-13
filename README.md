@@ -15,3 +15,4 @@
 
 
 Для просмотра и удобного теста запросов заходим на: http://localhost:8080/swagger-ui.html  (после запуска)
+docker run -p 8080:8080 ksergey1999/santa
