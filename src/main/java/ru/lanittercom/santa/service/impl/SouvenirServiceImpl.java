@@ -75,7 +75,7 @@ public class SouvenirServiceImpl implements SouvenirService {
                 count += countProduce;
             }
         } catch (Exception e) {
-         throw new PlantException();
+            throw new PlantException();
         }
         count -= 1;
         souvenir.setCount(count);

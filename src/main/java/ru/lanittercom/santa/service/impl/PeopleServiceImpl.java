@@ -11,6 +11,7 @@ public class PeopleServiceImpl implements PeopleService {
 
     /**
      * Теоретически мы должны по имени куда то стучаться и узнавать, хорошо или плохо себя вел
+     *
      * @param name
      * @return
      */

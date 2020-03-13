@@ -8,8 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @EnableFeignClients
 public class SantaApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SantaApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(SantaApplication.class, args);
+    }
 
 }
