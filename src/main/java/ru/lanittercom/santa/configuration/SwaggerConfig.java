@@ -23,7 +23,7 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder().title("Spring Boot App about Santa")
-                .description("JavaInUse API reference for developers")
+                .description("Тестовое задание")
                 .version("1.0").build();
     }
 }

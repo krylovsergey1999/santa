@@ -8,5 +8,5 @@ import java.util.List;
 public interface SouvenirService extends AbstractService<Souvenir, SouvenirDTO> {
     List<SouvenirDTO> getAll();
 
-    SouvenirDTO getSouvenir(String souvenirType);
+    SouvenirDTO getSouvenir(String peopleName, String souvenirType);
 }

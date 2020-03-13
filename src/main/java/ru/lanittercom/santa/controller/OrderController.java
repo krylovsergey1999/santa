@@ -31,7 +31,7 @@ public class OrderController extends AbstractControllerAPI {
     @PostMapping("/create")
     public ResponseEntity<SouvenirDTO> addOrder(OrderDTO orderDTO) {
         orderService.create(orderDTO);
-        SouvenirDTO souvenirDTO = souvenirService.getSouvenir(orderDTO.getType_souvenir());
+        SouvenirDTO souvenirDTO = souvenirService.getSouvenir(orderDTO.getName(), orderDTO.getType_souvenir());
         return ResponseEntity.status(HttpStatus.CREATED).body(souvenirDTO);
     }
 }
