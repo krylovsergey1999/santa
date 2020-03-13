@@ -1,1 +1,12 @@
-
+spring:
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: create-drop
+  h2:
+    console:
+      enabled: true
+      settings:
+        web-allow-others: true
+mitCountSouvenir: 3
+countProduce: 3
