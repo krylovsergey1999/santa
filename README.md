@@ -24,6 +24,8 @@
 
 Docker
 
-https://hub.docker.com/r/ksergey1999/santa
+https://hub.docker.com/repository/docker/ksergey1999/santa/general
+
+docker pull ksergey1999/santa:latest
 
 docker run -d -p 8080:8080 ksergey1999/santa
